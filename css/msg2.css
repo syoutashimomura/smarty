@@ -1,0 +1,24 @@
+div#container{
+    width: auto;
+    /*border: 1px solid black;*/
+    margin: 0px auto;
+
+}
+
+div.kanri{
+    text-align: center;
+    margin: 0px auto;
+}
+div#error{
+    color:red;
+}
+
+body{
+    background-color:#eee;
+}
+.delete_todo{
+    /*float:right;*/
+    /*display: inline-block;*/
+    color:#ccc;
+    cursor: pointer;
+}

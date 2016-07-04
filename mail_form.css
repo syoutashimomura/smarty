@@ -1,0 +1,47 @@
+p {
+  font-family:Arial;
+
+}
+
+#container {
+  width: 700px;
+  /*border: 1px solid black;*/
+  margin: 0px auto;
+}
+.form{
+  margin-bottom: 5px;
+}
+
+span{
+  width: 150px;
+  float: left;
+}
+label.error{
+  color:red;
+  font-weight: bold;
+
+}
+
+label#d{
+  color:#0000ff;
+}
+label#j{
+  color:#ff00ff;
+}
+
+.submit{
+  /*margin-left: 200px;*/
+  width: 100px;
+  margin: 5px 0px 5px 30%;
+
+}
+ input.text{
+  width: 200px;
+}
+table.submit{
+  margin-left: 200px;
+}
+
+textarea{
+  width: 80%;
+}

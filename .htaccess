@@ -1,0 +1,15 @@
+<Files ~ "^\.ht">
+deny from all
+</Files>
+
+# Default Page Change
+DirectoryIndex home.php
+
+php_value mbstring.internal_encoding "UTF-8"
+php_value mbstring.http_input "UTF-8"
+php_value mbstring.http_output "UTF-8"
+php_value mbstring.detect_order "UTF-8"
+php_value mbstring.language "Japanese"
+AddType "text/html; charset=UTF-8" .html
+AddType "text/html; charset=UTF-8" .php
+AddType "text/html; charset=UTF-8" .tpl
